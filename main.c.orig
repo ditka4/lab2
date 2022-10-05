@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "askname.h"
+int main(int argc, char **argv)
+{
+ char first[255], last[255];
+ askname(first, last);
+<<<<<<< HEAD
+ printf("Hello-- %s %s!\n", first, last);
+=======
+ printf("Hello,, %s %s!\n", first, last);
+>>>>>>> 7c24d4b3d020853d2719185cce0acd34999c6271
+ return 0;
+}
